@@ -5,5 +5,5 @@ Quote_title= Quote.title()
 print("\"" + Quote_title + "\"")            # "God Is Good"
 
 # TASK 2
-# Empty_list = []
-# Item1 = ["yam"]
+Empty_list = []
+Item1 = ["yam"] #
