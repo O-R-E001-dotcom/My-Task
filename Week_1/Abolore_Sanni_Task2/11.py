@@ -8,5 +8,6 @@ option6 = print("6. Pay bills")
 order = int(input("enter your number: "))
 
 
-
-print
+if order == 1:{
+    print("Balance is")
+}

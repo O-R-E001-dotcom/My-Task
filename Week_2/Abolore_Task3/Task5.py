@@ -60,3 +60,4 @@ print("|".join(updated_list))   # Perfume|moist|mist|rice|egg
 
 # Task 6
 
+

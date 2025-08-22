@@ -65,4 +65,16 @@ print(user.istitle())       # False
 print(user[::-1])           # ti htrow si ti epoh I
 
 # Task 7
-
+# List of 5 cities
+cities = ["Abk", "Lag", "Ibadan", "Abuja", "Ph"]
+# Replacing the 3rd city with a new one entered by user
+replaced_city = input("ENter a city: ") # Warri
+cities[0] = replaced_city
+print(cities)   # ['Warri', 'Lag', 'Ibadan', 'Abuja', 'Ph']
+# print(replaced_city)
+#Removing the last city
+cities.pop()
+# Adding a new city to the beginning of the list
+new_city = input("Enter: ")
+cities.insert(0, new_city)
+print("Updated list:", cities)  # Updated list: ['Ilorin', 'Warri', 'Lag', 'Ibadan', 'Abuja']
